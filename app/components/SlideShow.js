@@ -38,13 +38,13 @@ function SlideShow() {
         </CarouselContent>
         </Carousel>
         <div className='absolute h-[90vh] w-[100vw] flex justify-center items-center flex-col top-0 text-white'>
-        <div className=' font-bold text-9xl drop-shadow-lg'>
+        <div className=' font-bold text-9xl mb-10' style={{"color": ""}}>
             Shubhakshika
         </div>
-        <div className='  font-bold text-4xl mb-10  drop-shadow-lg'>Building dreams</div>
+        <div className='  font-bold text-4xl mb-10 ' style={{"text-shadow": "2px 2px 10px black"}}>Building dreams</div>
         <div className=' h-[12vh] w-1/3 flex justify-between items-center'>
-            <button className=' px-5 py-3 font-semibold text-lg bg-white text-black rounded-md w-[10rem] hover:bg-blue-500 hover:text-white'>Donate</button>
-            <button className=' px-5 py-3 font-semibold text-lg bg-white text-black rounded-md w-[10rem]  hover:bg-blue-500 hover:text-white'>Volunteer</button>
+            <button className=' px-5 py-3 font-semibold text-lg bg-white text-black rounded-md w-[10rem] hover:bg-blue-500 hover:text-white'  >Donate</button>
+            <button className=' px-5 py-3 font-semibold text-lg bg-white text-black rounded-md w-[10rem]  hover:bg-blue-500 hover:text-white shadow-md' >Volunteer</button>
         </div>
         </div>
     </div>
