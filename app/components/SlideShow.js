@@ -16,7 +16,7 @@ import Loading3 from '../../assets/images/pic.jpeg'
 
 function SlideShow() {
     const plugin = React.useRef(
-        Autoplay({ delay: 3000, stopOnInteraction: false })
+        Autoplay({ delay: 5000, stopOnInteraction: false })
       )
 
   return (
@@ -27,24 +27,26 @@ function SlideShow() {
         > 
         <CarouselContent>
             <CarouselItem className='w-[100vw]'>
-                <Image src={Loading1} className='w-[100vw] h-[90vh] object-cover opacity-75' alt='qa'/>
+                <Image src={Loading3} className='w-[100vw] h-[90vh] object-cover opacity-100  brightness-125 saturate-0' alt='qa'/>
             </CarouselItem>
             <CarouselItem className='w-[100vw]'>
-                <Image src={Loading2} className='w-[100vw] h-[90vh] object-cover opacity-75' alt='qa'/>
+                <Image src={Loading1} className='w-[100vw] h-[90vh] object-cover opacity-100  brightness-125  saturate-0' alt='qa'/>
             </CarouselItem>
             <CarouselItem className='w-[100vw]'>
-                <Image src={Loading3} className='w-[100vw] h-[90vh] object-cover opacity-75' alt='qa'/>
+                <Image src={Loading2} className='w-[100vw] h-[90vh] object-cover opacity-100  brightness-125  saturate-0' alt='qa'/>
             </CarouselItem>
+            
         </CarouselContent>
         </Carousel>
         <div className='absolute h-[90vh] w-[100vw] flex justify-center items-center flex-col top-0 text-white'>
-        <div className=' font-bold text-9xl mb-10' style={{"color": ""}}>
+        <div className=' font-bold text-9xl mb-10 text-amber-400' style={{ "text-shadow": "3px 3px 10px black"}}>
             Shubhakshika
         </div>
-        <div className='  font-bold text-4xl mb-10 ' style={{"text-shadow": "2px 2px 10px black"}}>Building dreams</div>
+        <div className='  font-bold text-4xl mb-10 text-white ' style={{ "text-shadow": "3px 3px 10px black"}}>
+            Building dreams</div>
         <div className=' h-[12vh] w-1/3 flex justify-between items-center'>
-            <button className=' px-5 py-3 font-semibold text-lg bg-white text-black rounded-md w-[10rem] hover:bg-blue-500 hover:text-white'  >Donate</button>
-            <button className=' px-5 py-3 font-semibold text-lg bg-white text-black rounded-md w-[10rem]  hover:bg-blue-500 hover:text-white shadow-md' >Volunteer</button>
+            <button className=' px-5 py-3 font-semibold text-lg bg-white text-black rounded-md w-[10rem] hover:bg-amber-400 hover:text-white'  >Donate</button>
+            <button className=' px-5 py-3 font-semibold text-lg bg-white text-black rounded-md w-[10rem]  hover:bg-amber-400 hover:text-white shadow-md' >Volunteer</button>
         </div>
         </div>
     </div>
