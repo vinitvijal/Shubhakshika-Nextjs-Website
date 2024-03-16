@@ -1,12 +1,11 @@
 import React from 'react'
 import { Input } from "@/components/ui/input"
-import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 import { Button } from '@/components/ui/button'
 
 export default function ContactUs() {
   return (
-    <div className='h-[80vh] w-[100vw] border-t border-b flex justify-evenly items-start'>
+    <section className='h-[80vh] w-[100vw] border-t border-b flex justify-evenly items-start' id='contact'>
         <div className=" w-1/2 p-20 flex justify-evenly flex-col h-full">
             <p className="text-6xl font-semibold">Contact Us</p>
             <p className="text-3xl font-medium">Shubhakshika Education Society</p>
@@ -30,6 +29,6 @@ export default function ContactUs() {
             <Textarea placeholder="Type your message here." className="h-48" />
             <Button className="">Send</Button>
         </div>
-    </div>
+    </section>
   )
 }

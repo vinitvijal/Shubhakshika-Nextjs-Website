@@ -4,7 +4,8 @@ import silai from '../../assets/images/7th.jpeg'
 
 export default function About() {
   return (
-    <div className='h-[200vh] w-[100vw]'>
+    <section className='h-[200vh] w-[100vw]' id='aboutus'>
+      <div className=' text-5xl font-semibold text-center my-10'>About Us</div>
       <div className='h-[60vh] w-full flex justify-between items-center'>
         <div className='w-2/5 h-full  flex justify-center items-center '>
             <Image src={silai} alt='img' className='h-4/5 rounded-e-xl'/>
@@ -33,6 +34,6 @@ export default function About() {
             
         </div>
       </div>
-    </div>
+    </section>
   )
 }

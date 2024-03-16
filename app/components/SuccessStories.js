@@ -15,7 +15,7 @@ function SuccessStories() {
       )
 
   return (
-    <div className='h-[90vh] w-[100vw] border flex justify-evenly items-center flex-col'>
+    <section className='h-[90vh] w-[100vw] border flex justify-evenly items-center flex-col' id='story'>
         <div className=' text-5xl font-semibold'>Message From The Founder</div>
         <Carousel className='w-[90vw]' plugins={[plugin.current]} onMouseEnter={plugin.current.stop} onMouseLeave={plugin.current.reset}>
             <CarouselContent className="w-[90vw]">
@@ -46,7 +46,7 @@ function SuccessStories() {
                 <Button variant="outline" className="w-1/4">Volunteer</Button>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

@@ -14,7 +14,7 @@ import Sponsor9 from '../../assets/images/sponsor9.png'
 
 function Sponsors() {
   return (
-    <section className='h-[100vh] w-[100vw] pb-10 my-5 flex justify-center items-center flex-col'>
+    <section className='h-[100vh] w-[100vw] mb-40 my-5 flex justify-center items-center flex-col' id='sponsor'>
         <div className=' text-6xl font-bold my-24'>Our Sponsors</div>
         <div className='  w-[90vw] grid grid-cols-3'>
             <Link href='https://www.metaflexdoors.in/'>

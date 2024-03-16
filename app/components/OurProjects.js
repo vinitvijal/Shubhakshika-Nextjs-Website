@@ -9,8 +9,8 @@ import vocational from '../../assets/images/vocational2.jpg'
 
 function OurProjects() {
   return (
-    <div className='min-h-[100vh] w-[100vw] bg-slate-100 flex justify-center items-center flex-col'>
-        <p className=' text-6xl flex items-center justify-center font-bold h-[15vh]'>Our Projects</p>
+    <div className='min-h-[120vh] w-[100vw] bg-slate-100 flex justify-center items-center flex-col' id='projects'>
+        <p className=' text-6xl flex items-center justify-center font-bold h-[20vh]'>Our Projects</p>
         <div className=' min-h-[80vh] grid-cols-3 grid w-full gap-5 pb-10'>
                 <Card className='w-[30vw] p-5 gap-5 mx-auto'>
                     <Image src={project3} alt="Picture of the author" width={500} height={500} className=" rounded-lg" />
