@@ -19,6 +19,18 @@ import Picture5 from '../../assets/images/team/Picture5.png'
 import Picture6 from '../../assets/images/team/Picture6.png'
 import Picture7 from '../../assets/images/team/Picture7.jpeg'
 
+import Aggarwal from '../../assets/images/team/AGGARWAL.jpeg'
+import ANITA from '../../assets/images/team/ANITA.jpeg'
+import JAYANTI from '../../assets/images/team/JAYANTI.jpeg'
+import KUSUM from '../../assets/images/team/KUSUM.jpeg'
+import PARAMJEET from '../../assets/images/team/PARAMJERET.jpeg'
+import POORVI from '../../assets/images/team/POORVI.jpeg'
+import pranshu from '../../assets/images/team/pranshu.jpeg'
+import RUCHI from '../../assets/images/team/RUCHI.jpeg'
+import sheela from '../../assets/images/team/sheela.jpeg'
+import sonika from '../../assets/images/team/sonika.jpg'
+import SWARAJ from '../../assets/images/team/SWARAJ.jpeg'
+
 const Data = [
     {
         name: 'Mr. Shri Om Prakash',
@@ -102,7 +114,7 @@ function page() {
               <div className=" col-span-3 flex justify-center items-center">
               <Card className="py-10 w-1/3">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={Picture1} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={pranshu} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
                 <CardDescription className="text-center px-5 text-xl font-bold">MS. PRANSHU BHATNAGAR</CardDescription>
                 <CardDescription className="text-center font-semibold text-amber-600 px-5 text-md">Chairperson</CardDescription>
@@ -113,7 +125,7 @@ function page() {
 
               <Card className="py-10 w-1/3">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={Picture1} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={KUSUM} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
                 <CardDescription className="text-center px-5 text-xl font-semibold">MS. KUSUM VIRMANI</CardDescription>
                 <CardDescription className="text-center font-semibold text-amber-600 px-5 text-sm">President</CardDescription>
@@ -121,7 +133,7 @@ function page() {
               </Card>
               <Card className="py-10 w-1/3">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={Picture1} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={RUCHI} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
                 <CardDescription className="text-center px-5 text-xl font-semibold">MS RUCHI GUPTA</CardDescription>
                 <CardDescription className="text-center font-semibold text-amber-600 px-5 text-sm">Vice President</CardDescription>
@@ -130,7 +142,7 @@ function page() {
               </div>
               <Card className="py-10">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={Picture1} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={sheela} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
                 <CardDescription className="text-center px-5 text-xl font-semibold">MS. SHEELA JAIN</CardDescription>
                 <CardDescription className="text-center font-semibold text-amber-600 px-5 text-sm">Vice President & Coordinator (Fund Promotion)</CardDescription>
@@ -138,7 +150,7 @@ function page() {
               </Card>
               <Card className="py-10">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={Picture1} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={sonika} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
                 <CardDescription className="text-center px-5 text-xl font-semibold">DR. SONIKA THAKRAL</CardDescription>
                 <CardDescription className="text-center font-semibold text-amber-600 px-5 text-sm">Secretary</CardDescription>
@@ -146,7 +158,7 @@ function page() {
               </Card>
               <Card className="py-10">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={Picture1} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={ANITA} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
                 <CardDescription className="text-center px-5 text-xl font-semibold">MS. ANITA SHARMA</CardDescription>
                 <CardDescription className="text-center font-semibold text-amber-600 px-5 text-sm">Secretary (Operations)</CardDescription>
@@ -154,7 +166,7 @@ function page() {
               </Card>
               <Card className="py-10">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={Picture1} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={POORVI} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
                 <CardDescription className="text-center px-5 text-xl font-semibold">MS. POORVI KHERA</CardDescription>
                 <CardDescription className="text-center px-5 font-semibold text-amber-600 text-sm">Secretary (Projects)</CardDescription>
@@ -162,7 +174,7 @@ function page() {
               </Card>
               <Card className="py-10">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={Picture1} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={PARAMJEET} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
                 <CardDescription className="text-center px-5 text-xl font-semibold">MR. PARAMJEET SINGH</CardDescription>
                 <CardDescription className="text-center px-5 font-semibold text-amber-600 text-sm">Treasurer</CardDescription>
@@ -170,7 +182,7 @@ function page() {
               </Card>
               <Card className="py-10">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={Picture1} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={Aggarwal} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
                 <CardDescription className="text-center px-5 text-xl font-semibold">MR R P AGGARWAL</CardDescription>
                 <CardDescription className="text-center px-5 font-semibold text-amber-600 text-sm">Finance Coordinator</CardDescription>
@@ -179,7 +191,7 @@ function page() {
               <div className=" col-span-3 flex justify-evenly items-center">
               <Card className="py-10 w-1/3">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={Picture1} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={JAYANTI} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
                 <CardDescription className="text-center px-5 text-xl font-semibold">JAYANTI CHATTERJI</CardDescription>
                 <CardDescription className="text-center px-5 font-semibold text-amber-600 text-sm">Member</CardDescription>
@@ -187,7 +199,7 @@ function page() {
               </Card>
               <Card className="py-10 w-1/3">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={Picture1} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={SWARAJ} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
                 <CardDescription className="text-center px-5 text-xl font-semibold">MR. SWARAJ KOCHHAR</CardDescription>
                 <CardDescription className="text-center  px-5 font-semibold text-amber-600 text-sm">Member</CardDescription>
