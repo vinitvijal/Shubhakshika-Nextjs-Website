@@ -16,7 +16,7 @@ function SuccessStories() {
 
   return (
     <section className='h-[90vh] w-[100vw] border flex justify-evenly items-center flex-col' id='story'>
-        <div className=' text-5xl font-semibold'>Message From The Founder</div>
+        <div className=' text-5xl font-semibold'>Our Success Stories</div>
         <Carousel className='w-[90vw]' plugins={[plugin.current]} onMouseEnter={plugin.current.stop} onMouseLeave={plugin.current.reset}>
             <CarouselContent className="w-[90vw]">
                 <CarouselItem className="md:basis-1/2 lg:basis-1/3  border"><StoryCard/></CarouselItem>

@@ -1,6 +1,7 @@
 import About from "./components/About";
 import ContactUs from "./components/ContactUs";
 import Donate from "./components/Donate";
+import Event from "./components/Event";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MessageFromFounder from "./components/MessageFromFounder";
@@ -19,6 +20,7 @@ export default function Home() {
     <About/>
     <Donate/>
     <Sponsors/>
+    <Event />
     <OurProjects/>
     <ContactUs/>
     <Footer/>
