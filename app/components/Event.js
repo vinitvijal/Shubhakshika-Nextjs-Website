@@ -33,7 +33,7 @@ const Event = () => {
                                     className="block h-full w-full object-cover"
                                 />
                                 <div className="p-4">
-                                <h3 className="text-lg font-bold mb-2">{card.title}</h3>
+                                <Link href={card.link}><h3 className="text-lg font-bold mb-2">{card.title}</h3></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -42,7 +42,7 @@ const Event = () => {
             </div>
         </section>
         <div>
-            <Link href='/events' className="text-black/50 hover:text-black text-xl hover:underline underline-offset-4 transition">More Events</Link>
+            <Link href='/event' className="text-black/50 hover:text-black text-xl hover:underline underline-offset-4 transition">More Events</Link>
         </div>
     </section>
   )
