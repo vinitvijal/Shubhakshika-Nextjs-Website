@@ -16,7 +16,7 @@ function Sponsors() {
   return (
     <section className='h-[100vh] w-[100vw] mb-40 my-5 flex justify-center items-center flex-col' id='sponsor'>
         <div className=' text-6xl font-bold my-24'>Our Sponsors</div>
-        <div className='  w-[90vw] grid grid-cols-3'>
+        <div className='  w-[90vw] grid grid-cols-3 gap-10'>
             <Link href='https://www.metaflexdoors.in/'>
                 <Image src={Sponsor1} alt='sponsor' className='m-auto'/>
             </Link>

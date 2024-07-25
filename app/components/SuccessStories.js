@@ -38,12 +38,12 @@ function SuccessStories() {
             <div className='w-1/4 h-[20vh]  flex flex-col justify-evenly'>
                 <p className=' text-3xl font-md border-b-2 border-gray-300 w-fit'>Sponsor A Child</p>
                 <p className=' text-lg'>children all over the country in need of resources</p>
-                <Button variant="outline" className="w-1/4">Donate</Button>
+                <Button className='bg-amber-400 color-black w-20'>Donate</Button>
             </div>
             <div className='w-1/4 h-[20vh]  flex flex-col justify-evenly'>
                 <p className=' text-3xl font-md border-b-2 border-gray-300 w-fit'>Be A Volunteer</p>
                 <p className=' text-lg'>Let&apos;s bring the change <br/>together</p>
-                <Button variant="outline" className="w-1/4">Volunteer</Button>
+                <Button className='bg-amber-400 color-black w-20'>Volunteer</Button>
             </div>
         </div>
     </section>
