@@ -97,9 +97,9 @@ function SuccessStories() {
         <section className='h-[90vh] w-[100vw] border flex justify-evenly items-center flex-col' id='story'>
             <div className='text-5xl font-semibold'>Our Success Stories</div>
             <Carousel className='w-[90vw] flex justify-center' plugins={[plugin.current]} onMouseEnter={plugin.current.stop} onMouseLeave={plugin.current.reset}>
-                <CarouselContent className="w-[90vw] overflow-x-auto">
+                <CarouselContent className="w-[90vw]">
                     {stories.map((story, index) => (
-                        <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 border">
+                        <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 ">
                             <StoryCard 
                                 title={story.title} 
                                 description={story.description} 
