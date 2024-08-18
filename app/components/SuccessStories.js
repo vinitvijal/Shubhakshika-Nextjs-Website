@@ -21,7 +21,7 @@ function SuccessStories() {
         },
         {
             title: "Rahul (Name changed)",
-            description: "YA was found bagging at Badli metro station. He belonged to a family of professional beggars. It was a challenge to bring the child to centre but aggressive counselling and perseverance resulted in success. The NGO could not only change the child but also convinced his family to take up a respectable job. We generated the seed money for an e-rickshaw with the help of Bharat Vikas Parishad. The boy’s father now owns and drives an e-rickshaw to earns his living.",
+            description: "Rahul was found bagging at Badli metro station. He belonged to a family of professional beggars. It was a challenge to bring the child to centre but aggressive counselling and perseverance resulted in success. The NGO could not only change the child but also convinced his family to take up a respectable job. We generated the seed money for an e-rickshaw with the help of Bharat Vikas Parishad. The boy’s father now owns and drives an e-rickshaw to earns his living.",
         },
         {
             title: "Mohit (Name changed)",
@@ -62,10 +62,6 @@ function SuccessStories() {
         {
             title: "Akshay (Name changed)",
             description: "Akshay, a 15 year old boy, unfortunately, lost his father and became the sole bread winner for his family. By the time his moth.....",
-        },
-        {
-            title: "Muskan (Name changed)",
-            description: "VLCC success story. KALASH. VLCC success story.",
         },
         {
             title: "Vivek (Name changed)",

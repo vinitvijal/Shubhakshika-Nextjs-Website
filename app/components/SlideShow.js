@@ -7,11 +7,10 @@ import {
   } from "@/components/ui/carousel"
   import Autoplay from "embla-carousel-autoplay"
 import Image from 'next/image'
-import { Button } from "@/components/ui/button"
 
-import Loading1 from '../../assets/images/landing1.png'
-import Loading2 from '../../assets/images/landing2.png'
-import Loading3 from '../../assets/images/pic.jpeg'
+import Loading1 from '../../assets/july-images/home1.jpeg'
+import Loading2 from '../../assets/july-images/ImageNew5.jpeg'
+import Loading3 from '../../assets/july-images/ImageNew2.jpeg'
 
 
 function SlideShow() {
@@ -27,22 +26,22 @@ function SlideShow() {
         > 
         <CarouselContent>
             <CarouselItem className='w-[100vw]'>
-                <Image src={Loading3} className='w-[100vw] h-[90vh] object-cover opacity-75  brightness-100 saturate-0' alt='qa'/>
+                <Image src={Loading3} className='w-[100vw] h-[90vh] object-cover opacity-75  brightness-100 saturate-75' alt='qa'/>
             </CarouselItem>
             <CarouselItem className='w-[100vw]'>
-                <Image src={Loading1} className='w-[100vw] h-[90vh] object-cover opacity-75  brightness-100  saturate-0' alt='qa'/>
+                <Image src={Loading1} className='w-[100vw] h-[90vh] object-cover opacity-75  brightness-100  saturate-75' alt='qa'/>
             </CarouselItem>
             <CarouselItem className='w-[100vw]'>
-                <Image src={Loading2} className='w-[100vw] h-[90vh] object-cover opacity-75  brightness-100  saturate-0' alt='qa'/>
+                <Image src={Loading2} className='w-[100vw] h-[90vh] object-cover opacity-75  brightness-100  saturate-75' alt='qa'/>
             </CarouselItem>
             
         </CarouselContent>
         </Carousel>
         <div className='absolute h-[90vh] w-[100vw] flex justify-center items-center flex-col top-0 text-white'>
-        <div className=' font-bold text-9xl mb-10 text-amber-400' style={{ "text-shadow": "0px 0px  white"}}>
+        <div className=' font-bold text-9xl mb-10 bg-gradient-to-r from-red-400 to-red-400 bg-clip-text text-transparent'>
             Shubhakshika
         </div>
-        <div className='  font-bold text-4xl mb-10 text-white ' style={{ "text-shadow": "3px 3px 10px black"}}>
+        <div className='  font-bold text-4xl mb-10 text-white '>
             Building dreams</div>
         <div className=' h-[12vh] w-1/3 flex justify-between items-center'>
             <button className=' px-5 py-3 font-semibold text-lg bg-white text-black rounded-md w-[10rem] hover:bg-amber-400 hover:text-white'  >Donate</button>
