@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import Link from 'next/link';
 
 const cardData = [
     {
@@ -30,26 +31,18 @@ const cardData = [
 
 const Page = () => {
     return (
-        <div className='w-full h-screen'>
+        <div className='w-full h-screen lg:my-40 my-28'>
             <div className='flex flex-col gap-10 justify-center items-center mt-20'>
-                <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+                <div className="max-w-screen-xl grid lg:grid-cols-2 grid-cols-1 gap-10 mx-auto p-5 sm:p-10 md:p-16">
                     {cardData.map((card, index) => (
-                        <div key={index} className="rounded overflow-hidden flex flex-col max-w-xl mx-auto">
+                        <div key={index} className="rounded overflow-hidden flex flex-col max-w-xl mx-auto ">
                             <a href={card.link}>
-                                <img className="w-full" src={card.src} alt={card.title} />
+                                <img className="object-cover h-[300px]" src={card.src} alt={card.title} />
                             </a>
-                            <div className="relative -mt-16 px-10 pt-5 pb-16 bg-white m-10">
-                                <a href={card.link} className="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out mb-2">
+                            <div className="relative -mt-12 px-10 h-28  bg-white m-10 shadow-lg rounded-2xl  flex justify-center items-center">
+                                <Link href={card.link} className="font-bold text-zinc-500 text-3xl hover:text-indigo-600 transition duration-500 ease-in-out mb-2">
                                     {card.title}
-                                </a>
-                                <p className="text-gray-500 text-sm">
-                                    {card.description}
-                                </p>
-                                <p className="mt-5 text-gray-600 text-xs">
-                                    <a href={card.link} className="text-xs text-indigo-600 transition duration-500 ease-in-out">
-                                        Visit
-                                    </a>
-                                </p>
+                                </Link>
                             </div>
                         </div>
                     ))}
