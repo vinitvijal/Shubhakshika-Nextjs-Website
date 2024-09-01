@@ -33,6 +33,22 @@ const eventData = [
   //   description: ''
   // },
   {
+    title: 'TRIP TO FIRE STATION',
+    images: [
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-12-54-57.jpg',
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-12-56-26.jpg'
+    ],
+    description: ''
+  },
+  {
+    title: 'TRIP TO ZOO',
+    images: [
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-13-02-43.jpg',
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-13-02-44.jpg'
+    ],
+    description: ''
+  },
+  {
     title: 'TRIP TO BHARAT DARSHAN PARK',
     images: [
       'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/bpark1.jpg',
