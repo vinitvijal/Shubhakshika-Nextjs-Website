@@ -18,20 +18,20 @@ const eventData = [
     ],
     description: 'A visit to ISKCON temple, Dwarka on 16th May 2023. The children received a warm welcome with delicious and nutritious Prasadam, followed by dance on the beats of devotional songs, Gopi dots and health checkup for children.'
   },
-  {
-    title: 'TRIP TO CHILDREN TRAFFIC PARK',
-    images: [
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park1.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park4.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park2.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park3.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park5.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park6.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park10.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park8.jpeg'
-    ],
-    description: ''
-  },
+  // {
+  //   title: 'TRIP TO CHILDREN TRAFFIC PARK',
+  //   images: [
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park1.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park4.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park2.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park3.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park5.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park6.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park10.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park8.jpeg'
+  //   ],
+  //   description: ''
+  // },
   {
     title: 'TRIP TO BHARAT DARSHAN PARK',
     images: [
