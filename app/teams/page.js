@@ -114,9 +114,9 @@ function page() {
               <div className=" col-span-3 flex justify-center items-center">
               <Card className="py-10 w-1/3">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={pranshu} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={KUSUM} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
-                <CardDescription className="text-center px-5 text-xl font-bold">MS. PRANSHU BHATNAGAR</CardDescription>
+                <CardDescription className="text-center px-5 text-xl font-semibold">MS. KUSUM VIRMANI</CardDescription>
                 <CardDescription className="text-center font-semibold text-amber-600 px-5 text-md">Chairperson</CardDescription>
 
               </Card>
@@ -125,9 +125,9 @@ function page() {
 
               <Card className="py-10 w-1/3">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
-                    <Image src={KUSUM} className='object-cover w-4/5 opacity-100' alt='qa'/>
+                    <Image src={pranshu} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
-                <CardDescription className="text-center px-5 text-xl font-semibold">MS. KUSUM VIRMANI</CardDescription>
+                <CardDescription className="text-center px-5 text-xl font-semibold">MS. PRANSHU BHATNAGAR</CardDescription>
                 <CardDescription className="text-center font-semibold text-amber-600 px-5 text-sm">President</CardDescription>
 
               </Card>

@@ -18,17 +18,33 @@ const eventData = [
     ],
     description: 'A visit to ISKCON temple, Dwarka on 16th May 2023. The children received a warm welcome with delicious and nutritious Prasadam, followed by dance on the beats of devotional songs, Gopi dots and health checkup for children.'
   },
+  // {
+  //   title: 'TRIP TO CHILDREN TRAFFIC PARK',
+  //   images: [
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park1.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park4.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park2.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park3.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park5.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park6.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park10.jpeg',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park8.jpeg'
+  //   ],
+  //   description: ''
+  // },
   {
-    title: 'TRIP TO CHILDREN TRAFFIC PARK',
+    title: 'TRIP TO FIRE STATION',
     images: [
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park1.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park4.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park2.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park3.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park5.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park6.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park10.jpeg',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park8.jpeg'
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-12-54-57.jpg',
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-12-56-26.jpg'
+    ],
+    description: ''
+  },
+  {
+    title: 'TRIP TO ZOO',
+    images: [
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-13-02-43.jpg',
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-13-02-44.jpg'
     ],
     description: ''
   },
