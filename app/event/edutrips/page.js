@@ -54,7 +54,7 @@ const eventData = [
 
 const Page = () => {
   return (
-    <div className='h-screen w-full pt-32'>
+    <div className='h-screen w-full pt-32 overflow-x-hidden'>
       <div className='flex flex-col justify-center items-center'>
         <div className='flex flex-col gap-8 justify-center items-center'>
           <h1 className='text-6xl font-bold te'>Educational Trips</h1>
