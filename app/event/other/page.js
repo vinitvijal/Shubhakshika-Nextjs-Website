@@ -29,12 +29,10 @@ const eventData = [
     description: 'Counselors from ISKCON have been spending time with our children in an attempt to bring peace and joy in their lives.'
   },
   {
-    title: 'ISKON MEAL',
+    title: 'ISKCON MEAL',
     images: [
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/iskon1.png',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/iskon2.png',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/iskon3.png',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/iskon4.png',
+      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/iskcon/is1.jpeg',
+      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/iskcon/is2.jpeg',
     ],
     description: 'Our children are nourished by Lord Krishna’s blessings through their daily meals provided by His devotees. We are grateful to ISKCON Dwarka for blessing our children with a wholesome lunch everyday. Children take turns to serve the food in a hygienic way.'
   },

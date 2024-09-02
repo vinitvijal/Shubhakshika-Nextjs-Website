@@ -5,8 +5,10 @@ const eventData = [
   {
     title: 'INDEPENDENCE DAY CELEBRATION',
     images: [
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/independence1.png',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/independence2.png',
+      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/independence/i1.jpeg',
+      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/independence/i2.jpeg',
+      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/independence/i3.jpeg',
+      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/independence/i4.jpeg',
     ],
     description: 'Independence Day was celebrated at the institute with great fervour and enthusiasm. The students joyfully presented several cultural items and received gifts.'
   },
@@ -44,14 +46,14 @@ const eventData = [
     ],
     description: ''
   },
-  {
-    title: 'INDEPENDENCE DAY',
-    images: [
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/independence1.png',
-      'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/independence2.png',
-    ],
-    description: 'The Shubhakshika family celebrated the 75th year of independence with great pomp and show. Patriotic songs, motivational street plays, folk dances and devotional music – the day was full of energy! With many esteemed guests gracing the occasion and encouraging the children, the program had a flurry of enthusiasm'
-  }
+  // {
+  //   title: 'INDEPENDENCE DAY',
+  //   images: [
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/independence1.png',
+  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/independence2.png',
+  //   ],
+  //   description: 'The Shubhakshika family celebrated the 75th year of independence with great pomp and show. Patriotic songs, motivational street plays, folk dances and devotional music – the day was full of energy! With many esteemed guests gracing the occasion and encouraging the children, the program had a flurry of enthusiasm'
+  // }
 ]
 
 const Page = () => {
