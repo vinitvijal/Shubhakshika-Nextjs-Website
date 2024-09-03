@@ -14,7 +14,7 @@ import Vocational from "./components/Vocational";
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-hidden">
     <Header/>
     <SlideShow/>
     <MessageFromFounder/>
@@ -28,6 +28,6 @@ export default function Home() {
     <OurProjects/>
     <ContactUs/>
     <Footer/>
-    </>
+    </div>
   );
 }
