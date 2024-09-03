@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 import Link from 'next/link'
 import Sponsor1 from '../../assets/images/sponsor1.png'
 import Sponsor2 from '../../assets/images/3b.png'
@@ -41,7 +40,6 @@ function Sponsors() {
             <Link href='https://www.metaflexdoors.in/'>
                 <Image src={Sponsor4} alt='sponsor' className='m-auto max-h-60 object-contain'/>
             </Link>
-
         </div>
     </section>
   )

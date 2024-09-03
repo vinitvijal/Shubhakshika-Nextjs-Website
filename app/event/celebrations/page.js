@@ -3,6 +3,27 @@ import React from 'react'
 
 const eventData = [
   {
+    title: 'RAKSHABAANDHAN CELEBRATION',
+    images: [
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-13-28-46.jpg',
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-13-28-51.jpg',
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-13-29-23.jpg',
+    ],
+    description: ''
+  },
+  {
+    title: 'DIWALI CELEBRATION',
+    images: [
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-13-33-23.jpg',
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-13-33-24.jpg',
+      'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-13-33-31.jpg',
+    ],
+    description: ''
+  },
+
+
+
+  {
     title: 'INDEPENDENCE DAY CELEBRATION',
     images: [
       'https://raw.githubusercontent.com/7sumona02/images-cdn/main/independence/i1.jpeg',
