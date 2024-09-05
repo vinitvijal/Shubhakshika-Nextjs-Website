@@ -4,7 +4,7 @@ import Logo from '../../assets/images/logo.png'
 
 const Footer = () => {
   return (
-      <footer className="h-[60vh] pt-16 border-t bg-slate-100 ">
+      <footer className="md:h-[65vh] h-full pt-16 border-t bg-slate-100 ">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
@@ -135,10 +135,10 @@ const Footer = () => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path
+              {/* <path
                 d="M37.5 -1.63918e-06C58.2107 -2.54447e-06 75 16.7893 75 37.5C75 58.2107 58.2107 75 37.5 75C16.7893 75 -7.33885e-07 58.2107 -1.63918e-06 37.5C-2.54447e-06 16.7893 16.7893 -7.33885e-07 37.5 -1.63918e-06Z"
                 fill="url(#paint0_linear_1179_4)"
-              />
+              /> */}
               <defs>
                 <linearGradient
                   id="paint0_linear_1179_4"

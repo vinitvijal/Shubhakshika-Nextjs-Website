@@ -15,7 +15,7 @@ function Header() {
   };
   return (
     <div>
-      <nav className="h-[12vh] scroll-smooth w-[100vw] bg-white flex flex-wrap items-center justify-between  top-0 fixed z-10 shadow-lg ">
+      <nav className="h-[12vh] scroll-smooth w-[100vw] bg-white flex flex-wrap items-center justify-between  top-0 fixed z-10 shadow-lg">
         <Link href='/' className=' h-5/6 w-auto pl-5'>
           <Image src={logo} alt="Picture of the author" className='h-full w-auto ' />
         </Link>
