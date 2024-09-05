@@ -3,9 +3,9 @@ import React from 'react'
 function Vocational() {
   return (
     <section className='min-h-[100vh] w-[100vw] flex justify-center items-center flex-col mt-40' id='#glimpses'>
-        <div className=' text-6xl font-bold'>Vocational Training</div>
+        <div className=' md:text-6xl text-4xl font-bold'>Vocational Training</div>
         <div className=' w-[90vw] flex justify-evenly items-center pt-20'>
-            <div className='grid grid-cols-2 gap-8'>
+            <div className='grid md:grid-cols-2 grid-cols-1 gap-8'>
             <div class="flex border-2">
                     <div class="max-w-lg rounded overflow-hidden hover:shadow-lg">
                         <img class="w-full h-[40vh] object-cover" src="https://raw.githubusercontent.com/7sumona02/images-cdn/main/july-images/image17.png" />
