@@ -46,10 +46,6 @@ const Data = [
         role: 'Chairman and MD, Space World Group',
         img: Picture4
     },{
-        name: 'Mr. Sanjay Arora',
-        role: '',
-        img: Picture7
-    },{
         name: 'Mr. Gyan Aggarwal',
         role: 'Chairman, Rajdeep Agro Products Pvt Ltd',
         img: Picture3
