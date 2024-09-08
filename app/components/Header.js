@@ -19,6 +19,7 @@ function Header() {
         <Link href='/#events' className='hover:border-b-yellow-400 hover:border-t-white hover:border-y-2 '>Events</Link>
         <Link href='/#contact' className='hover:border-b-yellow-400 hover:border-t-white hover:border-y-2 '>Contact Us</Link>
         <Link href='/teams' className='hover:border-b-yellow-400 hover:border-t-white hover:border-y-2  '>Our Team</Link>
+        <Link href='/report' className='hover:border-b-yellow-400 hover:border-t-white hover:border-y-2  '>Reports</Link>
         <Button className='bg-amber-400 color-black'>Volunteer!</Button>
         </div>
     </header>
