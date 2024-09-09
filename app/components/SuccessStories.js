@@ -90,8 +90,8 @@ function SuccessStories() {
     ];
 
     return (
-        <section className='h-[90vh] w-[100vw] border flex justify-evenly items-center flex-col' id='story'>
-            <div className='text-5xl font-semibold'>Our Success Stories</div>
+        <section className='h-[90vh] w-[100vw] border flex justify-evenly items-center flex-col md:mb-0 mb-20' id='story'>
+            <div className='md:text-5xl text-3xl font-semibold'>Our Success Stories</div>
             <Carousel className='w-[90vw] flex justify-center' plugins={[plugin.current]} onMouseEnter={plugin.current.stop} onMouseLeave={plugin.current.reset}>
                 <CarouselContent className="w-[90vw]">
                     {stories.map((story, index) => (
@@ -104,18 +104,18 @@ function SuccessStories() {
                     ))}
                 </CarouselContent>
             </Carousel>
-            <div className='w-[100vw] h-[25vh] flex justify-evenly mt-5 items-center'>
-                <div className='w-1/4 h-[20vh] flex flex-col justify-evenly'>
+            <div className='w-[100vw] h-[25vh] flex md:flex-row flex-col md:gap-0 gap-4 justify-evenly mt-5 items-center md:mb-0 mb-40'>
+                <div className='md:w-1/4 w-full md:px-0 px-4 h-[20vh] flex flex-col justify-evenly'>
                     <p className='text-3xl font-md border-b-2 border-gray-300 w-fit'>Served Over</p>
                     <p className='text-2xl font-extrabold'>4800+</p>
                     <p className='text-lg'>children all over the country in need of resources</p>
                 </div>
-                <div className='w-1/4 h-[20vh] flex flex-col justify-evenly'>
+                <div className='md:w-1/4 w-full md:px-0 px-4 h-[20vh] flex flex-col justify-evenly'>
                     <p className='text-3xl font-md border-b-2 border-gray-300 w-fit'>Sponsor A Child</p>
                     <p className='text-lg'>children all over the country in need of resources</p>
                     <Button className='bg-amber-400 color-black w-20'>Donate</Button>
                 </div>
-                <div className='w-1/4 h-[20vh] flex flex-col justify-evenly'>
+                <div className='md:w-1/4 w-full md:px-0 px-4 h-[20vh] flex flex-col justify-evenly'>
                     <p className='text-3xl font-md border-b-2 border-gray-300 w-fit'>Be A Volunteer</p>
                     <p className='text-lg'>Let&apos;s bring the change <br />together</p>
                     <Button className='bg-amber-400 color-black w-20'>Volunteer</Button>

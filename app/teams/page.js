@@ -101,14 +101,14 @@ function page() {
     <>
         <Header/>
         <div className='gap-10 w-full flex justify-evenly items-center flex-col mt-32'>
-            <h1 className='text-4xl font-bold underline underline-offset-8 decoration-amber-400'>Advisory Board Members</h1>
+            <h1 className='md:text-4xl text-3xl font-bold underline underline-offset-8 decoration-amber-400'>Advisory Board Members</h1>
             <TeamCard id="Advisory" title="Advisory Board" />
 
 
-            <h1 className='text-4xl font-bold underline underline-offset-8 decoration-amber-400 mt-32'>Executive Board Members</h1>
-            <div className="p-1 grid grid-cols-3 gap-6 w-[80%] px-10 mb-20 ">
+            <h1 className='md:text-4xl text-3xl font-bold underline underline-offset-8 decoration-amber-400 mt-32'>Executive Board Members</h1>
+            <div className="p-1 grid md:grid-cols-3 grid-cols-1 md:gap-6 gap-2 md:w-[80%] md:px-10 px-2 mb-20 ">
               <div className=" col-span-3 flex justify-center items-center">
-              <Card className="py-10 w-1/3">
+              <Card className="py-10 md:w-1/3 w-full">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
                     <Image src={KUSUM} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
@@ -117,9 +117,9 @@ function page() {
 
               </Card>
               </div>
-              <div className=" col-span-3 flex justify-evenly items-center">
+              <div className=" col-span-3 flex md:gap-0 gap-2 justify-evenly items-center">
 
-              <Card className="py-10 w-1/3">
+              <Card className="py-10 md:w-1/3 w-full">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
                     <Image src={pranshu} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
@@ -127,7 +127,7 @@ function page() {
                 <CardDescription className="text-center font-semibold text-amber-600 px-5 text-sm">President</CardDescription>
 
               </Card>
-              <Card className="py-10 w-1/3">
+              <Card className="py-10 w-full md:w-1/3">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
                     <Image src={RUCHI} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
@@ -184,8 +184,8 @@ function page() {
                 <CardDescription className="text-center px-5 font-semibold text-amber-600 text-sm">Finance Coordinator</CardDescription>
 
               </Card>
-              <div className=" col-span-3 flex justify-evenly items-center">
-              <Card className="py-10 w-1/3">
+              <div className=" col-span-3 flex md:gap-0 gap-2 justify-evenly items-center">
+              <Card className="py-10 md:w-1/3 w-full">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
                     <Image src={JAYANTI} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>
@@ -193,7 +193,7 @@ function page() {
                 <CardDescription className="text-center px-5 font-semibold text-amber-600 text-sm">Member</CardDescription>
 
               </Card>
-              <Card className="py-10 w-1/3">
+              <Card className="py-10 md:w-1/3 w-full">
                 <CardContent className="flex aspect-square   items-center justify-center p-2">
                     <Image src={SWARAJ} className='object-cover w-4/5 opacity-100' alt='qa'/>
                 </CardContent>

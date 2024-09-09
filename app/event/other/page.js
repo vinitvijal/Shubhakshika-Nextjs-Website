@@ -52,21 +52,21 @@ const Page = () => {
     <div className='h-screen w-full pt-32 overflow-x-hidden'>
       <div className='flex flex-col justify-center items-center'>
         <div className='flex flex-col gap-8 justify-center items-center'>
-          <h1 className='text-6xl font-bold te'>Other</h1>
+          <h1 className='md:text-6xl text-4xl font-bold'>Other</h1>
           <Separator className='w-screen bg-neutral-300' />
         </div>
 
         {eventData.map((event, index) => (
           <div key={index} className='pt-10 px-20 flex flex-col justify-center items-center gap-10'>
-            <h2 className='text-4xl font-semibold'>{event.title}</h2>
-            <div className='grid grid-cols-4 gap-2'>
+            <h2 className='md:text-4xl text-2xl font-semibold text-center'>{event.title}</h2>
+            <div className='grid md:grid-cols-4 grid-cols-1 gap-2'>
               {event.images.map((imageUrl, imageIndex) => (
-                <div key={imageIndex} className='w-[300px] h-full bg-black'>
+                <div key={imageIndex} className='w-[300px] h-[200px] bg-black'>
                   <img src={imageUrl} alt={`image-${imageIndex}`} className='object-cover h-full w-full' />
                 </div>
               ))}
             </div>
-            <p className='text-center max-w-2xl'>{event.description}</p>
+            <p className='text-center max-w-2xl md:px-0 px-4'>{event.description}</p>
             <Separator className='w-screen bg-neutral-300' />
           </div>
         ))}

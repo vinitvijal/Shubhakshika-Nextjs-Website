@@ -38,12 +38,12 @@ function SlideShow() {
         </CarouselContent>
         </Carousel>
         <div className='absolute h-[90vh] w-[100vw] flex justify-center items-center flex-col top-0 text-white'>
-        <div className=' font-bold text-9xl mb-10 bg-gradient-to-r from-red-400 to-red-400 bg-clip-text text-transparent'>
+        <div className=' font-bold md:text-9xl text-5xl mb-10 bg-gradient-to-r from-red-400 to-red-400 bg-clip-text text-transparent'>
             Shubhakshika
         </div>
-        <div className='  font-bold text-4xl mb-10 text-white '>
+        <div className='  font-bold md:text-4xl text-2xl mb-10 text-white '>
             Building dreams</div>
-        <div className=' h-[12vh] w-1/3 flex justify-between items-center'>
+        <div className=' h-[12vh] w-1/3 flex justify-between items-center md:gap-0 gap-4 md:mr-0 mr-[22vw]'>
             <button className=' px-5 py-3 font-semibold text-lg bg-white text-black rounded-md w-[10rem] hover:bg-amber-400 hover:text-white'  >Donate</button>
             <button className=' px-5 py-3 font-semibold text-lg bg-white text-black rounded-md w-[10rem]  hover:bg-amber-400 hover:text-white shadow-md' >Volunteer</button>
         </div>
