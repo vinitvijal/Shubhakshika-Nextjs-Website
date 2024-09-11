@@ -1,3 +1,4 @@
+import VideoEmbed from '@/app/components/VideoEmbed';
 import { Separator } from '@/components/ui/separator'
 import React from 'react'
 
@@ -8,6 +9,7 @@ const eventData = [
       'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/traffic1.png',
       'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/traffic2.png'
     ],
+    video: <VideoEmbed src="https://streamable.com/e/ul2c5x?" />,
     description: ''
   },
   {
@@ -16,28 +18,16 @@ const eventData = [
       'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/prashad1.png',
       'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/prashad2.png'
     ],
+    video: '',
     description: 'A visit to ISKCON temple, Dwarka on 16th May 2023. The children received a warm welcome with delicious and nutritious Prasadam, followed by dance on the beats of devotional songs, Gopi dots and health checkup for children.'
   },
-  // {
-  //   title: 'TRIP TO CHILDREN TRAFFIC PARK',
-  //   images: [
-  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park1.jpeg',
-  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park4.jpeg',
-  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park2.jpeg',
-  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park3.jpeg',
-  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park5.jpeg',
-  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park6.jpeg',
-  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park10.jpeg',
-  //     'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/park8.jpeg'
-  //   ],
-  //   description: ''
-  // },
   {
     title: 'TRIP TO FIRE STATION',
     images: [
       'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-12-54-57.jpg',
       'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-12-56-26.jpg'
     ],
+    video: <VideoEmbed src="https://streamable.com/e/ri6a4e?" />,
     description: ''
   },
   {
@@ -46,6 +36,7 @@ const eventData = [
       'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-13-02-43.jpg',
       'https://cdn.statically.io/gh/vinitvijal/images-cdn/main/workshop/PHOTO-2024-09-01-13-02-44.jpg'
     ],
+    video: <VideoEmbed src="https://streamable.com/e/jj297n?" />,
     description: ''
   },
   {
@@ -56,6 +47,7 @@ const eventData = [
       'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/bpark3.png',
       'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/bpark7.jpeg'
     ],
+    video: '',
     description: ''
   },
   {
@@ -64,9 +56,10 @@ const eventData = [
       'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/ashram21.jpeg',
       'https://raw.githubusercontent.com/7sumona02/images-cdn/main/events/ashram22.jpeg'
     ],
+    video: '',
     description: 'Children aged above 15 were taken tithe Aurobindo Ashram Delhi Branch on January 24, 2023 to educate them about the free vocational training programs being run by the Ashram. The children were apprised about the prospects after various courses and the admission criteria.'
   }
-]
+];
 
 const Page = () => {
   return (
@@ -78,8 +71,8 @@ const Page = () => {
         </div>
 
         {eventData.map((event, index) => (
-          <div key={index} className='pt-10 px-20 flex flex-col justify-center items-center gap-10'>
-            <h2 className='md:text-4xl text-2xl font-semibold text-center'>{event.title}</h2>
+          <div key={index} className='pt-10 flex flex-col justify-center items-start ml-20 gap-10'>
+            <h2 className='md:text-4xl text-2xl font-semibold text-center mx-auto'>{event.title}</h2>
             <div className='grid md:grid-cols-4 grid-cols-1 gap-2'>
               {event.images.map((imageUrl, imageIndex) => (
                 <div key={imageIndex} className='w-[300px] h-[200px] bg-black'>
@@ -87,7 +80,8 @@ const Page = () => {
                 </div>
               ))}
             </div>
-            <p className='text-center max-w-2xl md:px-0 px-4'>{event.description}</p>
+            <div className=''>{event.video}</div>
+            <p className='text-center max-w-2xl md:px-0 px-4 mx-auto'>{event.description}</p>
             <Separator className='w-screen bg-neutral-300' />
           </div>
         ))}
