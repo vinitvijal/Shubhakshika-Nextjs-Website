@@ -25,7 +25,7 @@ function Header() {
           <img className="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="48" height="48" />
         </button>
       </div>
-      <div className="toggle hidden w-full md:w-auto md:flex md:justify-evenly text-right text-sm mt-5 md:mt-0 border-t-2 border-black md:border-none p-5 bg-white md:bg-transparent">
+      <div className="toggle hidden w-full md:w-auto md:flex md:justify-evenly text-right text-sm -mt-2 md:mt-0 border-t-2 border-black md:border-none p-5 bg-white md:bg-transparent">
         <Link href='/#aboutus' className="block md:inline-block text-black hover:text-yellow-400 px-4 py-3 border-b-2 border-black md:border-none">About Us</Link>
         <Link href='/#story' className="block md:inline-block text-black hover:text-yellow-400 px-4 py-3 border-b-2 border-black md:border-none">Stories</Link>
         <Link href="/#projects" className="block md:inline-block text-black hover:text-yellow-400 px-4 py-3 border-b-2 border-black md:border-none">Our Projects</Link>

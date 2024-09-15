@@ -2,7 +2,7 @@ import React from 'react'
 
 function Glimpses() {
   return (
-    <section className='min-h-[100vh] w-[100vw] flex justify-center items-center flex-col mt-40' id='#glimpses'>
+    <section className='min-h-[100vh] w-[100vw] flex justify-center items-center flex-col md:mt-40 -mt-28' id='#glimpses'>
         <div className=' text-6xl font-bold'>Glimpses</div>
         <div className=' w-[90vw] flex justify-evenly items-center pt-20'>
             <div className='grid grid-cols-3 gap-4'>

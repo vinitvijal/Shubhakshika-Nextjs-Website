@@ -90,7 +90,7 @@ function SuccessStories() {
     ];
 
     return (
-        <section className='h-[90vh] w-[100vw] border flex justify-evenly items-center flex-col md:mb-0 mb-20' id='story'>
+        <section className='h-[90vh] w-[100vw] border flex justify-evenly items-center flex-col md:pb-0 pb-20' id='story'>
             <div className='md:text-5xl text-3xl font-semibold'>Our Success Stories</div>
             <Carousel className='w-[90vw] flex justify-center' plugins={[plugin.current]} onMouseEnter={plugin.current.stop} onMouseLeave={plugin.current.reset}>
                 <CarouselContent className="w-[90vw]">
