@@ -64,7 +64,7 @@ const eventData = [
 const Page = () => {
   return (
     <div className='h-screen w-full pt-32 overflow-x-hidden'>
-      <div className='flex flex-col justify-center items-center'>
+      <div className='flex flex-col md:justify-center justify-start items-center'>
         <div className='flex flex-col gap-8 justify-center items-center'>
           <h1 className='md:text-6xl text-4xl font-bold'>Educational Trips</h1>
           <Separator className='w-screen bg-neutral-300' />
@@ -72,7 +72,7 @@ const Page = () => {
 
         {eventData.map((event, index) => (
           <div key={index} className='pt-10 flex flex-col justify-center items-start ml-20 gap-10'>
-            <h2 className='md:text-4xl text-2xl font-semibold text-center mx-auto'>{event.title}</h2>
+            <h2 className='md:text-4xl text-2xl md:w-full w-3/4 font-semibold md:text-center md:mx-auto'>{event.title}</h2>
             <div className='grid md:grid-cols-4 grid-cols-1 gap-2'>
               {event.images.map((imageUrl, imageIndex) => (
                 <div key={imageIndex} className='w-[300px] h-[200px] bg-black'>
@@ -81,7 +81,7 @@ const Page = () => {
               ))}
             </div>
             <div className=''>{event.video}</div>
-            <p className='text-center max-w-2xl md:px-0 px-4 mx-auto'>{event.description}</p>
+            <p className='md:text-center max-w-2xl md:px-0 px-4 md:mx-auto md:w-full w-3/4'>{event.description}</p>
             <Separator className='w-screen bg-neutral-300' />
           </div>
         ))}
