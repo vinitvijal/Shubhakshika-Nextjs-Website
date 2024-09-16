@@ -2,7 +2,7 @@ import React from 'react'
 
 function Vocational() {
   return (
-    <section className='min-h-[100vh] w-[100vw] flex justify-center items-center flex-col mt-40' id='#glimpses'>
+    <section className='min-h-[100vh] w-[100vw] flex justify-center items-center flex-col md:mt-40' id='#glimpses'>
         <div className=' md:text-6xl text-4xl font-bold'>Vocational Training</div>
         <div className=' w-[90vw] flex justify-evenly items-center pt-20'>
             <div className='grid md:grid-cols-2 grid-cols-1 gap-8'>
