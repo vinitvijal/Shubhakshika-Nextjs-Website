@@ -18,6 +18,7 @@ import Picture4 from '../../assets/images/team/Picture4.png'
 import Picture5 from '../../assets/images/team/Picture5.png'
 import Picture6 from '../../assets/images/team/Picture6.png'
 import Picture7 from '../../assets/images/team/Picture7.jpeg'
+import Picture8 from '../../assets/images/team/Picture8.jpeg'
 
 import Aggarwal from '../../assets/images/team/AGGARWAL.jpeg'
 import ANITA from '../../assets/images/team/ANITA.jpeg'
@@ -59,9 +60,11 @@ const Data = [
         role: 'Department of Computer Science, University of Delhi',
         img: Picture5
     },
-    
-
-
+    {
+      name: 'Neeraj Kansal',
+      role: '',
+      img: Picture8
+    },
 ]
 
 function TeamCard() {
